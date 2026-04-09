@@ -1,0 +1,81 @@
+{
+  "run_timestamp": "2026-03-22T08:50:30.445598",
+  "device": "cuda",
+  "models_trained": [
+    "EfficientNet_B4",
+    "ResNet50",
+    "DenseNet201",
+    "ConvNeXt_Tiny",
+    "Swin_Tiny"
+  ],
+  "dataset_total": 5015,
+  "train_size": 3508,
+  "val_size": 750,
+  "test_size": 757,
+  "results": [
+    {
+      "model_name": "EfficientNet_B4",
+      "accuracy": 0.9418758256274768,
+      "f1_macro": 0.9437649433153503,
+      "precision_macro": 0.9452507429279265,
+      "recall_macro": 0.9437393177648051,
+      "auc_macro": 0.9957594357429169
+    },
+    {
+      "model_name": "ResNet50",
+      "accuracy": 0.8982826948480845,
+      "f1_macro": 0.8976904158029502,
+      "precision_macro": 0.905913499115109,
+      "recall_macro": 0.9031227586756072,
+      "auc_macro": 0.9881029349697078
+    },
+    {
+      "model_name": "DenseNet201",
+      "accuracy": 0.20343461030383092,
+      "f1_macro": 0.0717334156971756,
+      "precision_macro": 0.04875745071068317,
+      "recall_macro": 0.19763532763532762,
+      "auc_macro": 0.4561779691794401
+    },
+    {
+      "model_name": "ConvNeXt_Tiny",
+      "accuracy": 0.7529722589167768,
+      "f1_macro": 0.7546592261880316,
+      "precision_macro": 0.7842793620622587,
+      "recall_macro": 0.7565790242851712,
+      "auc_macro": 0.9531891355489179
+    },
+    {
+      "model_name": "Swin_Tiny",
+      "accuracy": 0.9101717305151915,
+      "f1_macro": 0.9137341201202698,
+      "precision_macro": 0.9213016003173451,
+      "recall_macro": 0.9120617232592496,
+      "auc_macro": 0.9930492772181954
+    },
+    {
+      "model_name": "Stacked_Ensemble",
+      "accuracy": 0.940554821664465,
+      "f1_macro": 0.9419715991909783,
+      "precision_macro": 0.9427473546749503,
+      "recall_macro": 0.943120588667815,
+      "auc_macro": 0.995225408021201
+    },
+    {
+      "model_name": "Hybrid_SVM_Fusion",
+      "accuracy": 0.9630118890356671,
+      "f1_macro": 0.964453918228673,
+      "precision_macro": 0.9648232582980574,
+      "recall_macro": 0.9642443743024703,
+      "auc_macro": 0.9959189236226138
+    },
+    {
+      "model_name": "Ensemble",
+      "accuracy": 0.9379128137384413,
+      "f1_macro": 0.9406759197755854,
+      "precision_macro": 0.9418521588065225,
+      "recall_macro": 0.940387824250268,
+      "auc_macro": 0.9956686101878087
+    }
+  ]
+}
